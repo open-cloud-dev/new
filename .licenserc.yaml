@@ -1,0 +1,29 @@
+header:
+  license:
+    spdx-id: Apache-2.0
+    copyright-owner: Open Cloud Dev authors <https://open-cloud.dev>
+    copyright-year: 2023
+  paths-ignore:
+    - dist
+    - tmp
+    - AUTHORS
+    - LICENSE
+    - "**/.*"
+    - "**/go.*"
+    - "**/*.{json,md}"
+    - "**/cloud-config.yaml"
+    - "**/.gitkeep"
+    - "**/*.svelte"
+    - "**/*.txt"
+    - "**/*.lock"
+    - hack/generate-authors.sh
+  comment: on-failure
+  language:
+    Go:
+      extensions:
+        - ".go"
+      comment_style_id: SlashAsterisk
+
+dependency:
+  files:
+    - go.mod # If this is a Go project.

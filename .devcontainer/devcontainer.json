@@ -1,0 +1,13 @@
+{
+  "name": "devcontainer",
+  "image": "ghcr.io/open-cloud-dev/devcontainers/full",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.makefile-tools"
+      ],
+      "settings": {}
+    }
+  },
+  "features": {}
+}
